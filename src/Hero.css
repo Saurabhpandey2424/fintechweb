@@ -1,0 +1,7 @@
+.logo {
+    background-image: url('./heroimage1.jpg');
+    background-size: cover;
+}
+.ram {
+    max-width: 60vh;
+}

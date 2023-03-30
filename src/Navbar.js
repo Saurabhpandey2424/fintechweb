@@ -7,7 +7,7 @@ import './bootstrap/dist/css/bootstrap.min.css';
 function NavBar() {
   return(
   <>
- <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
+ <nav className="navbar navbar-expand-lg navbar-light bg-primary d-flex justify-content-end">
   <div className="container-fluid ">
     <a className="navbar-brand fw-bolder ms-3" href="#">
       UPDOWN!! 
@@ -26,13 +26,13 @@ function NavBar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link text-primary fw-bold" aria-current="page" href="#">
-            Home
+          <a className="nav-link text-light fw-bold" aria-current="page" href="#">
+            Sign in
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link fw-bold" href="#">
-            Link
+           About us
           </a>
         </li>
         {/* <li className="nav-item dropdown">
